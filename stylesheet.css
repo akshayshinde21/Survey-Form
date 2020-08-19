@@ -1,0 +1,129 @@
+body{
+text-align: center;
+background-image: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#title{
+  font-size: 50px;
+}
+
+hr.new1{
+  border-top: 1px solid lightgray;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  background-color: #fff;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  padding:30px 20px;
+  max-width:500px;
+  margin:auto;
+}
+
+#row1 {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+input[type=text] {
+width:80%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color: #FFFFE0;
+border-radius: 4px;
+}
+
+#row2{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+input[type=email] {
+width:80%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color: #FFFFE0;
+border-radius: 4px;
+}
+
+#row3{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-bottom: -3px;
+}
+
+input[type=tel] {
+width:60%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color: #FFFFE0;
+border-radius: 4px;
+}
+
+#row4{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  line-height: 100px;
+}
+
+#dropdown{
+  width: 128px;
+  height: 38px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #FFFFE0;
+  border-radius: 4px;
+  border-color: black;
+}
+
+#row5{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#row6{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#row7{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #FFFFE0;
+  resize: none;
+}
